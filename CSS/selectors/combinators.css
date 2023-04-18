@@ -1,0 +1,15 @@
+/* Combinator selectors */
+
+/* general sibling selector */
+
+/* whatever p tags are present at the same level
+and written below of h1 tags are targeted. */
+h1~p
+{
+    color: red;
+}
+
+div~p
+{
+    border: 2px solid black;
+}

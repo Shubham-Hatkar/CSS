@@ -1,0 +1,30 @@
+/* select all elements of html */
+*
+{
+    text-align: center;
+}
+
+/* tag selector */
+h1
+{
+    color: blue;
+    background-color: aqua;
+}
+
+/* id selector */
+#para1
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.para
+{
+    font-weight: 500;
+    color: brown;
+    font-size: 25px;
+}
+
+
+
+
