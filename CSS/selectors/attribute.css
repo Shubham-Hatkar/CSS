@@ -1,0 +1,6 @@
+
+/* selector[attribute_name = "attribute_value"] */
+input[type="text"]
+{
+    background-color: red;
+}

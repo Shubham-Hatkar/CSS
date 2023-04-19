@@ -1,6 +1,6 @@
 /* Combinator selectors */
 
-/* general sibling selector */
+/* 1) general sibling selector */
 
 /* whatever p tags are present at the same level
 and written below of h1 tags are targeted. */
@@ -9,7 +9,17 @@ h1~p
     color: red;
 }
 
-div~p
+
+/* 2) adjacent sibling selector ( + ) */
+/* target immediate right elements and they should be in same level */
+h2 + p
 {
-    border: 2px solid black;
+    color: blue;
+}
+
+/* 3) child selector (>) */
+/* direct child only at first level child */
+div > p
+{
+    color: aqua;
 }

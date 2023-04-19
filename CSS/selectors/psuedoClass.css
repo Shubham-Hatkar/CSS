@@ -1,0 +1,38 @@
+/* psuedo class selectors */
+
+/* Syntax => any_selector : psuedo class */
+
+a:link
+{
+    color: green;
+}
+
+a:visited
+{
+    color: yellow;
+}
+
+/* moving cursor on the element */
+a:hover
+{
+    color: red;
+}
+
+/* when the link is active */
+a:active
+{
+    color: springgreen;
+}
+
+input :focus
+{
+    background-color: palevioletred;
+
+}
+
+.btn:hover
+{
+    background-color: aqua;
+    color: black;
+    border: 3px solid yellow;
+}
