@@ -1,0 +1,49 @@
+
+*
+{
+    margin: 0px;
+}
+
+.navbar
+{
+    width: 100%;
+    position: fixed;
+
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.navbar a:hover
+{
+    background-color: antiquewhite;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container img
+{
+    width: 100%;
+    position: relative;
+    top: 200px;
+}
+
+.container .left
+{
+    position: relative;
+    top: 200px;
+}

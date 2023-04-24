@@ -1,0 +1,44 @@
+.box
+{
+    background-color: red;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width:300px)
+{
+    #box1
+    {
+        display: block;
+        background-color: aqua;
+    }    
+}
+
+@media (max-width:500px) and (min-width:300px)
+{
+    #box2
+    {
+        display: block;
+        background-color: blueviolet;
+    }    
+}
+
+@media (min-width:500px) and (max-width:800px)
+{  
+    #box3
+    {
+        display: block;
+        background-color: yellow;
+    }    
+}
+
+@media (min-width:800px)
+{
+    #box4
+    {
+        display: block;
+        background-color: brown;
+    }
+}

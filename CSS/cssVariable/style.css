@@ -1,0 +1,19 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+
+    /* if you want to change color then u can change only variable color.. */
+    --box-color : blue;
+
+    background-color: var(--box-color);
+    box-shadow: var(--box-color);
+    border: 2px solid red;
+    margin: 2px;
+
+}
+
+.container
+{
+    display: flex;
+}

@@ -1,0 +1,21 @@
+.container
+{
+    display: flex;
+
+}
+
+.cart
+{
+    padding: 12px;
+    margin: 10px;
+    border: 2px solid red;
+    /* if you want border shadow upside then use negative numbers */
+    /* x axis, y axis, blur radius, spread radius, color */
+    box-shadow: 4px 4px 20px 5px green;
+    
+}
+
+.cart h2
+{
+    text-shadow: 2px 2px yellow;
+}

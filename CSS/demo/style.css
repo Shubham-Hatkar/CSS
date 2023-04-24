@@ -1,0 +1,19 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+header::before
+{
+    
+    background: url('kevin-matos-Nl_FMFpXo2g-unsplash.jpg') no-repeat center ;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}

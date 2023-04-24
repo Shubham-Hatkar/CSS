@@ -1,0 +1,41 @@
+.container
+{
+    width: 900px;
+
+    border: 3px solid purple;
+    margin: auto;
+}
+
+.item
+{
+    border: 2px solid blue;
+    margin: 12px;
+    padding: 12px;
+}
+
+#fruits
+{
+    float: left;
+    width: 40%;
+}
+
+#computer
+{
+    float: right;
+    width: 40%;
+}
+
+#stationary
+{
+    /* kisi bhi element ko apne upar float hone nahi dega clear */
+    clear: both;
+
+}
+
+p, h3
+{
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+}

@@ -1,0 +1,33 @@
+.box
+{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    display: inline-block;
+}
+
+.parent
+{
+    position: relative;
+}
+
+.child1
+{
+    position: relative;
+    top: -5px;
+    right: 40px;
+}
+
+.child2
+{
+    position: absolute;
+    left: 80px;
+}
+
+.child3
+{
+    position: relative;
+    top : 20px;
+    right: 40px;
+}
